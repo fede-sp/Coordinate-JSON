@@ -1,0 +1,11 @@
+{
+    "title":  "coordinata",
+    "type": "object",
+    "properties":{
+        "latitudine": {"type":"number"},
+        "longitudine": {"type": "number"},
+        "altitudine": {"type": "integer"}
+    },
+    "required": ["latitudine", "longitudine", "altitudine"],
+    "additionalProperties": false
+}
